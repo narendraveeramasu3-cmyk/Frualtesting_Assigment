@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="13" passed="13" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-11-03T00:13:25 IST" name="Surefire suite" finished-at="2026-11-03T00:14:23 IST" duration-ms="58129">
+    <groups>
+    </groups>
+    <test started-at="2026-11-03T00:13:25 IST" name="Surefire test" finished-at="2026-11-03T00:14:23 IST" duration-ms="58129">
+      <class name="tests.LoginTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.LoginTest@69b2283a]" started-at="2026-11-03T00:14:00 IST" name="setUp" finished-at="2026-11-03T00:14:03 IST" duration-ms="2520" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyEmptyPassword()[pri:0, instance:tests.LoginTest@69b2283a]" started-at="2026-11-03T00:14:03 IST" name="verifyEmptyPassword" finished-at="2026-11-03T00:14:03 IST" duration-ms="555" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyEmptyPassword -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.LoginTest@69b2283a]" started-at="2026-11-03T00:14:03 IST" name="tearDown" finished-at="2026-11-03T00:14:04 IST" duration-ms="648" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyEmptyPassword status=SUCCESS method=LoginTest.verifyEmptyPassword()[pri:0, instance:tests.LoginTest@69b2283a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.LoginTest@69b2283a]" started-at="2026-11-03T00:14:04 IST" name="setUp" finished-at="2026-11-03T00:14:06 IST" duration-ms="2087" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyEmptyUsername()[pri:0, instance:tests.LoginTest@69b2283a]" started-at="2026-11-03T00:14:06 IST" name="verifyEmptyUsername" finished-at="2026-11-03T00:14:07 IST" duration-ms="783" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyEmptyUsername -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.LoginTest@69b2283a]" started-at="2026-11-03T00:14:07 IST" name="tearDown" finished-at="2026-11-03T00:14:08 IST" duration-ms="559" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyEmptyUsername status=SUCCESS method=LoginTest.verifyEmptyUsername()[pri:0, instance:tests.LoginTest@69b2283a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.LoginTest@69b2283a]" started-at="2026-11-03T00:14:08 IST" name="setUp" finished-at="2026-11-03T00:14:10 IST" duration-ms="2521" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyInvalidPassword()[pri:0, instance:tests.LoginTest@69b2283a]" started-at="2026-11-03T00:14:10 IST" name="verifyInvalidPassword" finished-at="2026-11-03T00:14:11 IST" duration-ms="701" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyInvalidPassword -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.LoginTest@69b2283a]" started-at="2026-11-03T00:14:11 IST" name="tearDown" finished-at="2026-11-03T00:14:11 IST" duration-ms="578" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyInvalidPassword status=SUCCESS method=LoginTest.verifyInvalidPassword()[pri:0, instance:tests.LoginTest@69b2283a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.LoginTest@69b2283a]" started-at="2026-11-03T00:14:11 IST" name="setUp" finished-at="2026-11-03T00:14:14 IST" duration-ms="2672" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyInvalidUsername()[pri:0, instance:tests.LoginTest@69b2283a]" started-at="2026-11-03T00:14:14 IST" name="verifyInvalidUsername" finished-at="2026-11-03T00:14:15 IST" duration-ms="679" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyInvalidUsername -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.LoginTest@69b2283a]" started-at="2026-11-03T00:14:15 IST" name="tearDown" finished-at="2026-11-03T00:14:15 IST" duration-ms="583" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyInvalidUsername status=SUCCESS method=LoginTest.verifyInvalidUsername()[pri:0, instance:tests.LoginTest@69b2283a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.LoginTest@69b2283a]" started-at="2026-11-03T00:14:15 IST" name="setUp" finished-at="2026-11-03T00:14:18 IST" duration-ms="2433" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyLockedOutUser()[pri:0, instance:tests.LoginTest@69b2283a]" started-at="2026-11-03T00:14:18 IST" name="verifyLockedOutUser" finished-at="2026-11-03T00:14:18 IST" duration-ms="629" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLockedOutUser -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.LoginTest@69b2283a]" started-at="2026-11-03T00:14:18 IST" name="tearDown" finished-at="2026-11-03T00:14:19 IST" duration-ms="648" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyLockedOutUser status=SUCCESS method=LoginTest.verifyLockedOutUser()[pri:0, instance:tests.LoginTest@69b2283a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.LoginTest@69b2283a]" started-at="2026-11-03T00:14:19 IST" name="setUp" finished-at="2026-11-03T00:14:22 IST" duration-ms="2590" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifySuccessfulLogin()[pri:0, instance:tests.LoginTest@69b2283a]" started-at="2026-11-03T00:14:22 IST" name="verifySuccessfulLogin" finished-at="2026-11-03T00:14:22 IST" duration-ms="736" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySuccessfulLogin -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.LoginTest@69b2283a]" started-at="2026-11-03T00:14:22 IST" name="tearDown" finished-at="2026-11-03T00:14:23 IST" duration-ms="617" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifySuccessfulLogin status=SUCCESS method=LoginTest.verifySuccessfulLogin()[pri:0, instance:tests.LoginTest@69b2283a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.LoginTest -->
+      <class name="tests.CartTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.CartTest@5223e5ee]" started-at="2026-11-03T00:13:25 IST" name="setUp" finished-at="2026-11-03T00:13:29 IST" duration-ms="3696" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyCartItemCount()[pri:0, instance:tests.CartTest@5223e5ee]" started-at="2026-11-03T00:13:29 IST" name="verifyCartItemCount" finished-at="2026-11-03T00:13:31 IST" duration-ms="2786" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCartItemCount -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.CartTest@5223e5ee]" started-at="2026-11-03T00:13:31 IST" name="tearDown" finished-at="2026-11-03T00:13:32 IST" duration-ms="782" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyCartItemCount status=SUCCESS method=CartTest.verifyCartItemCount()[pri:0, instance:tests.CartTest@5223e5ee] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.CartTest@5223e5ee]" started-at="2026-11-03T00:13:32 IST" name="setUp" finished-at="2026-11-03T00:13:35 IST" duration-ms="3095" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyEmptyCartAfterRemovingAllProducts()[pri:0, instance:tests.CartTest@5223e5ee]" started-at="2026-11-03T00:13:35 IST" name="verifyEmptyCartAfterRemovingAllProducts" finished-at="2026-11-03T00:13:37 IST" duration-ms="1926" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyEmptyCartAfterRemovingAllProducts -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.CartTest@5223e5ee]" started-at="2026-11-03T00:13:37 IST" name="tearDown" finished-at="2026-11-03T00:13:38 IST" duration-ms="541" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyEmptyCartAfterRemovingAllProducts status=SUCCESS method=CartTest.verifyEmptyCartAfterRemovingAllProducts()[pri:0, instance:tests.CartTest@5223e5ee] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.CartTest@5223e5ee]" started-at="2026-11-03T00:13:38 IST" name="setUp" finished-at="2026-11-03T00:13:40 IST" duration-ms="2566" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyProductNamesInCart()[pri:0, instance:tests.CartTest@5223e5ee]" started-at="2026-11-03T00:13:40 IST" name="verifyProductNamesInCart" finished-at="2026-11-03T00:13:42 IST" duration-ms="1418" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyProductNamesInCart -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.CartTest@5223e5ee]" started-at="2026-11-03T00:13:42 IST" name="tearDown" finished-at="2026-11-03T00:13:42 IST" duration-ms="639" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyProductNamesInCart status=SUCCESS method=CartTest.verifyProductNamesInCart()[pri:0, instance:tests.CartTest@5223e5ee] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.CartTest@5223e5ee]" started-at="2026-11-03T00:13:42 IST" name="setUp" finished-at="2026-11-03T00:13:45 IST" duration-ms="2260" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyRemoveProductFromCart()[pri:0, instance:tests.CartTest@5223e5ee]" started-at="2026-11-03T00:13:45 IST" name="verifyRemoveProductFromCart" finished-at="2026-11-03T00:13:46 IST" duration-ms="1648" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyRemoveProductFromCart -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.CartTest@5223e5ee]" started-at="2026-11-03T00:13:46 IST" name="tearDown" finished-at="2026-11-03T00:13:47 IST" duration-ms="695" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyRemoveProductFromCart status=SUCCESS method=CartTest.verifyRemoveProductFromCart()[pri:0, instance:tests.CartTest@5223e5ee] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.CartTest@5223e5ee]" started-at="2026-11-03T00:13:47 IST" name="setUp" finished-at="2026-11-03T00:13:49 IST" duration-ms="2177" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifySingleProductAddedToCart()[pri:0, instance:tests.CartTest@5223e5ee]" started-at="2026-11-03T00:13:49 IST" name="verifySingleProductAddedToCart" finished-at="2026-11-03T00:13:50 IST" duration-ms="1245" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySingleProductAddedToCart -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.CartTest@5223e5ee]" started-at="2026-11-03T00:13:50 IST" name="tearDown" finished-at="2026-11-03T00:13:51 IST" duration-ms="562" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifySingleProductAddedToCart status=SUCCESS method=CartTest.verifySingleProductAddedToCart()[pri:0, instance:tests.CartTest@5223e5ee] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.CartTest@5223e5ee]" started-at="2026-11-03T00:13:51 IST" name="setUp" finished-at="2026-11-03T00:13:53 IST" duration-ms="2230" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyTwoProductsAddedToCart()[pri:0, instance:tests.CartTest@5223e5ee]" started-at="2026-11-03T00:13:53 IST" name="verifyTwoProductsAddedToCart" finished-at="2026-11-03T00:13:54 IST" duration-ms="1189" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTwoProductsAddedToCart -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.CartTest@5223e5ee]" started-at="2026-11-03T00:13:54 IST" name="tearDown" finished-at="2026-11-03T00:13:55 IST" duration-ms="703" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyTwoProductsAddedToCart status=SUCCESS method=CartTest.verifyTwoProductsAddedToCart()[pri:0, instance:tests.CartTest@5223e5ee] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.CartTest -->
+      <class name="tests.CheckoutTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.CheckoutTest@bef2d72]" started-at="2026-11-03T00:13:55 IST" name="setUp" finished-at="2026-11-03T00:13:57 IST" duration-ms="2142" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifySuccessfulCheckout()[pri:0, instance:tests.CheckoutTest@bef2d72]" started-at="2026-11-03T00:13:57 IST" name="verifySuccessfulCheckout" finished-at="2026-11-03T00:14:00 IST" duration-ms="2553" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySuccessfulCheckout -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.CheckoutTest@bef2d72]" started-at="2026-11-03T00:14:00 IST" name="tearDown" finished-at="2026-11-03T00:14:00 IST" duration-ms="584" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifySuccessfulCheckout status=SUCCESS method=CheckoutTest.verifySuccessfulCheckout()[pri:0, instance:tests.CheckoutTest@bef2d72] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.CheckoutTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
